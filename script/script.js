@@ -65,9 +65,7 @@ function buttonListElement(){
 }
 
 function clearElement(){
-	var button = document.querySelectorAll('li button');
 	for(var i=0; i<li.length; i++){
 		this.parentNode.remove()
-		//list.removeChild(list.childNodes[0]);//
 	}
 }
